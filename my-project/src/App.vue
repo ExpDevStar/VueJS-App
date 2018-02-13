@@ -1,14 +1,16 @@
 <template>
   <div>
-    <show-AllStudents></show-AllStudents>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import ShowAllStudents from './components/ShowAllStudents.vue'
+import CreateStudent from './components/CreateStudent.vue'
 export default {
   components: {
-    'show-AllStudents': ShowAllStudents
+    'show-AllStudents': ShowAllStudents,
+    'create-Student': CreateStudent
   }
 }
 </script>
