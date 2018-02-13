@@ -1,5 +1,6 @@
 <template>
   <div>
+    <app-header></app-header>
     <router-view></router-view>
   </div>
 </template>
@@ -7,10 +8,12 @@
 <script>
 import ShowAllStudents from './components/ShowAllStudents.vue'
 import CreateStudent from './components/CreateStudent.vue'
+import header from './components/header.vue'
 export default {
   components: {
     'show-AllStudents': ShowAllStudents,
-    'create-Student': CreateStudent
+    'create-Student': CreateStudent,
+    'app-header': header
   }
 }
 </script>
