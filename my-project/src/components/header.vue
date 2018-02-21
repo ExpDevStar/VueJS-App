@@ -3,6 +3,7 @@
     <ul>
       <li><router-link to="/" exact>Get all applicants</router-link></li>
       <li><router-link to="/form" exact>Create a new applicant</router-link></li>
+      <li><router-link to="/upload" exact>Upload Resume</router-link></li>
     </ul>
   </nav>
 </template>

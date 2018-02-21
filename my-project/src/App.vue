@@ -9,11 +9,13 @@
 import ShowAllStudents from './components/ShowAllStudents.vue'
 import CreateStudent from './components/CreateStudent.vue'
 import header from './components/header.vue'
+import ResumeUpload from './components/ResumeUpload.vue'
 export default {
   components: {
     'show-AllStudents': ShowAllStudents,
     'create-Student': CreateStudent,
-    'app-header': header
+    'app-header': header,
+    'resume-upload': ResumeUpload
   }
 }
 </script>
